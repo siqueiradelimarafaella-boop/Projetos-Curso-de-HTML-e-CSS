@@ -1,0 +1,180 @@
+body{
+background-color: #f7f7f7;
+font-family: Arial;
+margin: 0px;
+display: grid;
+gap: 10px;
+justify-items: center;
+margin-top: 30px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+
+
+}
+
+.estilo1{
+text-align: center;
+margin: 0px;
+padding: 20px;
+height: 100px;
+font-size: x-large;
+
+}
+
+ .ic {
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid  #c6c6c6 ; 
+    border-radius: 7px;
+       
+}
+
+.links{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+place-content: center;
+}
+
+.fle{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+place-content: center;
+
+}
+
+
+.grid {
+display: grid;
+gap: 10px;
+grid-template-columns: 1fr 1fr;
+background-color: white;
+place-items: center;
+margin: 60px;
+
+}
+
+.bloco1{
+    display: grid;
+    gap: 10px;
+    text-align: right;
+    justify-items: end;
+    padding: 20px;
+    font-size: x-large;
+    position: relative;
+
+}
+
+.ver{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+    background-color:#ee2211;
+    border-radius: 4px;
+    
+    
+}
+
+.det1{
+width: 60px;
+height: 4px;
+background-color: #ee2211;
+display: inline-block;
+position: absolute;
+top: 30px;
+right: -30px;
+}
+
+.bloco2{
+display: grid;
+gap: 10px;
+ 
+}
+
+.img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+
+.bloco3{
+    display: grid;
+    gap: 10px;
+    justify-items: end;
+    text-align: right;
+    color: #c6c6c6 ;
+    font-size: 64px;
+    padding: 20px;
+    align-self: center;
+    background-color:#f7f7f7; 
+    
+}
+
+.bloco4{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding: 20px;
+    font-size: large;
+}
+
+.imgtex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  margin:0px;
+ 
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+}
+
+.icone {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+ 
+}
+
+.item h3 {
+  
+  font-weight: bold;
+  text-align: left;
+  margin: 0px;
+  color: black;
+
+}
+
+.item p {
+  margin:5px;
+  text-align: left;
+  color:black;
+  
+  }
+
+
+.tf{
+
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    background-color: #c6c6c6;
+    padding: 20px;
+    margin-bottom: 0%;
+    text-align: center;
+    box-sizing: border-box;
+  
+}
